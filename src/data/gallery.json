@@ -1,0 +1,47 @@
+[
+  {
+    "img": "../img/destination/img_2.png",
+    "title": "Bãi biển Phú Quốc - Thiên đường biển đảo",
+    "category": "beach"
+  },
+  {
+    "img": "../img/destination/img_4.png",
+    "title": "Núi Sapa - Vẻ đẹp ruộng bậc thang",
+    "category": "mountain"
+  },
+  {
+    "img": "../img/destination/img_12.png",
+    "title": "TP. Hồ Chí Minh - Thành phố năng động",
+    "category": "city"
+  },
+  {
+    "img": "../img/destination/img_5.png",
+    "title": "Chùa Việt Nam - Kiến trúc truyền thống",
+    "category": "culture"
+  },
+  {
+    "img": "../img/destination/img_10.png",
+    "title": "Vịnh Hạ Long - Kỳ quan thiên nhiên",
+    "category": "beach"
+  },
+  {
+    "img": "../img/destination/img_6.png",
+    "title": "Phố cổ Hội An - Đèn lồng rực rỡ",
+    "category": "culture"
+  },
+  {
+    "img": "../img/destination/img_1.png",
+    "title": "Ninh Bình - Tràng An hùng vĩ",
+    "category": "mountain"
+  },
+  {
+    "img": "../img/destination/img_3.png",
+    "title": "Phố cổ Hà Nội - Nét cổ kính",
+    "category": "city"
+  },
+  {
+    "img": "../img/destination/img_11.png",
+    "title": "Bãi biển Đà Nẵng - Cát vàng mịn màng",
+    "category": "beach"
+  }
+]

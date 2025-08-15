@@ -1,14 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Expolrer - Index</title>
+    <!--Add link css -->
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
+
 <body>
 
+    <!--Header : Tiêu đề, slogan, search -->
+    <header>
+        <div class="container">
+            <h1>Du Lịch Việt Nam</h1>
+            <p class="slogan"><em>Khám phá vẻ đẹp thiên nhiên và văn hóa Việt Nam</em></p>
+        </div>
+        <div class="search-section">
+            <form class="search-form">
+                <input type="text" placeholder="Nhập tên địa điểm...">
+                <button type="submit" onclick="searchSubmit()">Tìm Kiếm</button>
+            </form>
+        </div>
+    </header>
+    <!--End header-->
 
-<div>Day la trang Index</div>
+    <!--Menu dieu huong-->
+    <div class="menu-menu">
+        <nav>
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--End menu-->
 
-<script src="../js/index.js"></script>
+    <main>
+        <!-- Secsion banner, slide show-->
+        <section class="banner">
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <img src="../img/slideshow/img.png" alt="Vịnh Hạ Long">
+                    <div class="slide-content">
+                        <h2>Vịnh Hạ Long</h2>
+                        <p>Kỳ quan thiên nhiên thế giới</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../img/slideshow/img_3.png" alt="Phố Cổ Hội An">
+                    <div class="slide-content">
+                        <h2>Phố Cổ Hội An</h2>
+                        <p>Di sản văn hóa thế giới</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../img/slideshow/img_4.png" alt="Ruộng Bậc Thang Sapa">
+                    <div class="slide-content">
+                        <h2>Ruộng Bậc Thang Sapa</h2>
+                        <p>Vẻ đẹp núi rừng Tây Bắc</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../img/slideshow/img_2.png" alt="Ruộng Bậc Thang Sapa">
+                    <div class="slide-content">
+                        <h2>Đảo Phú Quốc</h2>
+                        <p>Vùng biển mới đẹp và sạch</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../img/slideshow/img_1.png" alt="Ruộng Bậc Thang Sapa">
+                    <div class="slide-content">
+                        <h2>Bà Nà Hills</h2>
+                        <p>Đường lên tiên cảnh</p>
+                    </div>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </section>
+        <!--End banner,slide show-->
+
+        <!--Gioi thiêu-->
+        <section class="intro">
+            <div class="container">
+                <h2>Chào Mừng Đến Với Du Lịch Việt Nam</h2>
+                <span>
+                    Việt Nam – dải đất hình chữ S uốn mình bên bờ biển Đông – là điểm đến mê hoặc mọi du khách với vẻ
+                    đẹp thiên nhiên tráng lệ, nền văn hóa đa dạng và con người thân thiện. Từ những dãy núi hùng vĩ ở
+                    Tây Bắc, những thửa ruộng bậc thang vàng óng mùa lúa chín, đến những bãi biển cát trắng trải dài ở
+                    miền Trung và miền Nam, Việt Nam mang đến trải nghiệm khó quên cho mọi hành trình.
+
+                    Hà Nội – thủ đô nghìn năm văn hiến – níu chân du khách bằng 36 phố phường cổ kính, hồ Hoàn Kiếm thơ
+                    mộng và ẩm thực đường phố đặc sắc. Huế trầm mặc với những cung điện, lăng tẩm gợi nhớ thời vàng son
+                    triều Nguyễn. Hội An quyến rũ trong ánh đèn lồng lung linh bên dòng sông Hoài. Và Sài Gòn năng động
+                    lại mang nhịp sống sôi động, hòa quyện giữa truyền thống và hiện đại.
+
+                    Thiên nhiên Việt Nam là bản hòa ca của núi rừng, biển cả và đồng bằng. Vịnh Hạ Long – kỳ quan thiên
+                    nhiên thế giới – làm say đắm lòng người với hàng nghìn hòn đảo đá vôi kỳ thú. Phú Quốc và Nha Trang
+                    là thiên đường biển xanh, nắng vàng. Miền Tây sông nước lại hấp dẫn bởi chợ nổi tấp nập, vườn trái
+                    cây trĩu quả.
+
+                    Đến Việt Nam, bạn không chỉ được chiêm ngưỡng cảnh đẹp, mà còn được thưởng thức ẩm thực tinh tế – từ
+                    phở, bún chả, bánh mì đến cà phê phin đậm đà. Người Việt hiếu khách, nụ cười luôn nở trên môi, sẵn
+                    sàng chia sẻ câu chuyện, ly trà hay bữa cơm ấm áp.
+
+                    Việt Nam – một hành trình, muôn trải nghiệm. Hãy đến và cảm nhận, để mang về không chỉ là những bức
+                    ảnh, mà còn là những kỷ niệm và cảm xúc không thể nào quên.
+                </span>
+            </div>
+        </section>
+        <!--End-->
+
+        <!--Dia diem noi bat-->
+        <section class="destinations">
+            <div class="container">
+                <h2>Địa Điểm Nổi Bật</h2>
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <h3>Miền Bắc</h3>
+                        <ul>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img.png" alt="Vịnh Hạ Long">
+                                    <div class="destination-text">Vịnh Hạ Long</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_4.png" alt="Ruộng bậc    thang">
+                                    <div class="destination-text">Ruộng bậc thang</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_3.png" alt="Phố Cổ Hà Nội">
+                                    <div class="destination-text">Phố cổ</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_5.png" alt="Tràng An">
+                                    <div class="destination-text">Tràng An</div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!--Địa điểm nổi bật -->
+                    <div class="destination-card">
+                        <h3>Miền Trung</h3>
+                        <ul>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_6.png" alt="Hội An">
+                                    <div class="destination-text">Hội An</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_7.png" alt="Cố đô Huế">
+                                    <div class="destination-text">Cố đô</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_8.png" alt="Ba Na Hills">
+                                    <div class="destination-text">Ba Na Hills</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_9.png" alt="Phong Nha Ke Bang">
+                                    <div class="destination-text">Phong Nha - Ke Bang</div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="destination-card">
+                        <h3>Miền Nam</h3>
+                        <ul>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_10.png" alt="Nha Trang">
+                                    <div class="destination-text">Nha Trang</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_2.png" alt="Phu Quoc">
+                                    <div class="destination-text">Phu Quoc</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_11.png" alt="Da Lat">
+                                    <div class="destination-text">Da Lat</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="destination-content">
+                                    <img src="../img/destination/img_12.png" alt="Vung Tau">
+                                    <div class="destination-text">Vung Tau</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  End-->
+
+        <!--Bảng thống kê -->
+        <section class="stats">
+            <div class="container">
+                <h2>Thống Kê Du Lịch</h2>
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Vùng Miền</th>
+                            <th>Số Tỉnh/Thành</th>
+                            <th>Điểm Nổi Bật</th>
+                            <th>Khách Du Lịch/Năm</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Miền Bắc</td>
+                            <td>10</td>
+                            <td>Vịnh Hạ Long, Sapa</td>
+                            <td>15 triệu</td>
+                        </tr>
+                        <tr>
+                            <td>Miền Trung</td>
+                            <td>10</td>
+                            <td>Hội An, Huế</td>
+                            <td>12 triệu</td>
+                        </tr>
+                        <tr>
+                            <td>Miền Nam</td>
+                            <td>10</td>
+                            <td>TP.HCM, Phú Quốc</td>
+                            <td>18 triệu</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- End -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Du Lịch Việt Nam. &copy;Copyright by Minh.</p>
+        </div>
+    </footer>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/app-jq.js"></script>
 </body>
+
 </html>

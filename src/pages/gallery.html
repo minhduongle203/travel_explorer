@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Expolrer - Gallery</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
+
 <body>
-$END$
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Du Lịch Việt Nam</h1>
+            <p class="slogan"><em>Khám phá vẻ đẹp thiên nhiên và văn hóa Việt Nam</em></p>
+        </div>
+    </header>
+    <!--End Header -->
+    <!--Menu điều hướng -->
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--End menu -->
+    <main>
+        <!--Header main -->
+        <section class="gallery-header">
+            <div class="container">
+                <h2>Thư Viện Ảnh Du Lịch Việt Nam</h2>
+                <p>Khám phá vẻ đẹp Việt Nam qua từng hình ảnh</p>
+            </div>
+        </section>
+        <!--End header main -->
+        <!--Buttons filter -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Tất Cả</button>
+                    <button class="filter-btn" data-filter="beach">Biển</button>
+                    <button class="filter-btn" data-filter="mountain">Núi</button>
+                    <button class="filter-btn" data-filter="city">Thành Phố</button>
+                    <button class="filter-btn" data-filter="culture">Văn Hóa</button>
+                    <button class="filter-btn" id="toggle-gallery">Ẩn/Hiện ảnh</button>
+                    <button class="filter-btn" id="load-gallery">Tải Gallery từ JSON</button>
+                </div>
+            </div>
+        </section>
+        <!--End buttons filter -->
+        <!--Content - dữ liệu thư viện ảnh lấy tù Json -->
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <figure class="gallery-item">
+                        <figcaption>Chưa có ảnh nào. Vui lòng tải ảnh lên!</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!--End -->
+    </main>
+    <!--Footer -->
+    <footer>
+        <div class="container">
+            <p>Du Lịch Việt Nam. &copy;Copyright by Minh.</p>
+        </div>
+    </footer>
+    <!--Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/app-jq.js"></script>
+
 </body>
+
 </html>
